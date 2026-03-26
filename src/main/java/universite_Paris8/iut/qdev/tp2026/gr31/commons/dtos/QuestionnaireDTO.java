@@ -59,4 +59,10 @@ public QuestionnaireDTO(String libelleQuestionnaire, LangueEnum langueEnum){
         public int getTailleQuestionnaire(){
         return listeQuestion.size();
         }
+
+        public void setQuestions(ArrayList<QuestionDTO> questions){
+                for (QuestionDTO q : questions){
+                        ajouterQuestion(q);
+                }
+        }
 }

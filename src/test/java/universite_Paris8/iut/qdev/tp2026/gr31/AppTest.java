@@ -17,3 +17,6 @@ public class AppTest {
         assertTrue(true);
     }
 }
+// test unitaire = méthode qui fontctionne
+// intégration = fonctionnement globale des méthodes et de logique entre elle
+//
